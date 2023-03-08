@@ -1,0 +1,59 @@
+---
+title: "Linear Regression R Shiny App"
+author: Iliyan Nazarali 
+date: March 3, 2023
+output: powerpoint_presentation
+---
+
+# Linear Regression
+
+## What is a Regression Model
+
+-   Mechanism through which we can describe the relationship between an independent and dependent variable
+
+-   Determine the effect of variable on one another, can be support to support claims about one variable about biking and smoking
+
+-   Many different types of Regressions
+
+# Linear Regression
+
+## What is it
+
+-   regression model that utilizes a straight to tell the relationship between two variables
+
+-   two main types: Simple linear regression and multiple linear regression
+
+-   Has an X and Y - can use a .summary function to tell us information about each variable
+
+## Assumptions before doing Simple Regression Analysis
+
+-   no autocorrelation - meaning there are not multiple observations within the same data set
+
+-   Normality- whether your data set follows the normal distribution
+
+-   Linearity- can be drawn with a straight line
+
+-   Homoscedasticity- prediction error does not change significantly over the range of the predicition of the model
+
+## Assumption before doing Multiple Regression Analysis
+
+-   again no autocorrelation- make sure your x and y are not too highly correlated, otherwise cannot fit both your parameters in your model
+-   Hist function- whether the y follows the normal distribution
+-   Linearity - make sure the x and y make a linear line
+-   Homoscedasticity
+
+## Now Lets Proceed with our Regression Anaylysis
+
+# Use lm function
+
+## lm Function in Simple Regression
+
+-   Independent variable \~ Dependent variable and data
+
+## lm function in Muliple Regression
+
+-   dependent variable \~ Independent + Independent \## P values
+-   As mentioned early, statically significance
+-   whether we should reject the null hypothesis whether there is no relationship between variables of interest or not- no difference among groups
+
+------------------------------------------------------------------------
